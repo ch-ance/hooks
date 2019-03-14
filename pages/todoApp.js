@@ -16,13 +16,25 @@ const todoApp = () => {
       <h1>Todo App</h1>
       <ul>
         {todos.map(todo => (
-          <li>{todo.text}</li>
+          <li
+            onClick={() => {
+              setTodos(
+                todos.map(TODO => {
+                  return TODO.id === todo.id
+                    ? { ...TODO, completed: !TODO.completed }
+                    : TODO;
+                })
+              );
+            }}
+          >
+            {todo.text} {todo.completed ? "COMPLETED" : ""}
+          </li>
         ))}
       </ul>
       <form
         onSubmit={e => {
           e.preventDefault();
-          setTodos([...todos, { text: todoText }]);
+          setTodos([...todos, { text: todoText, id: Date.now() }]);
           handleInput("");
         }}
       >
@@ -32,6 +44,7 @@ const todoApp = () => {
           onChange={e => handleInput(e.target.value)}
         />
       </form>
+      <button onClick={() => setTodos(todos.filter(TODO => !TODO.completed))}>Clear Completed</button>
     </>
   );
 };

@@ -1,13 +1,13 @@
 ((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\_error.js"],{
 
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/array/from.js?7451":
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/array/from.js":
 /*!************************************************************************************************************************!*\
   !*** C:/Users/cembr/OneDrive/Desktop/Lambda/Sandboxes/hooks/node_modules/@babel/runtime-corejs2/core-js/array/from.js ***!
   \************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! core-js/library/fn/array/from */ "./node_modules/core-js/library/fn/array/from.js?9ce2");
+module.exports = __webpack_require__(/*! core-js/library/fn/array/from */ "./node_modules/core-js/library/fn/array/from.js");
 
 /***/ }),
 
@@ -22,14 +22,14 @@ module.exports = __webpack_require__(/*! core-js/library/fn/array/is-array */ ".
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/is-iterable.js?4741":
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/is-iterable.js":
 /*!*************************************************************************************************************************!*\
   !*** C:/Users/cembr/OneDrive/Desktop/Lambda/Sandboxes/hooks/node_modules/@babel/runtime-corejs2/core-js/is-iterable.js ***!
   \*************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! core-js/library/fn/is-iterable */ "./node_modules/core-js/library/fn/is-iterable.js?8f18");
+module.exports = __webpack_require__(/*! core-js/library/fn/is-iterable */ "./node_modules/core-js/library/fn/is-iterable.js");
 
 /***/ }),
 
@@ -176,7 +176,7 @@ module.exports = _createClass;
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/arrayWithoutHoles.js?a16e":
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/arrayWithoutHoles.js":
 /*!***********************************************************************************************************************************!*\
   !*** C:/Users/cembr/OneDrive/Desktop/Lambda/Sandboxes/hooks/node_modules/@babel/runtime-corejs2/helpers/esm/arrayWithoutHoles.js ***!
   \***********************************************************************************************************************************/
@@ -329,7 +329,7 @@ function _inherits(subClass, superClass) {
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/iterableToArray.js?9400":
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/iterableToArray.js":
 /*!*********************************************************************************************************************************!*\
   !*** C:/Users/cembr/OneDrive/Desktop/Lambda/Sandboxes/hooks/node_modules/@babel/runtime-corejs2/helpers/esm/iterableToArray.js ***!
   \*********************************************************************************************************************************/
@@ -339,9 +339,9 @@ function _inherits(subClass, superClass) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _iterableToArray; });
-/* harmony import */ var _core_js_array_from__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/array/from */ "./node_modules/@babel/runtime-corejs2/core-js/array/from.js?7451");
+/* harmony import */ var _core_js_array_from__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/array/from */ "./node_modules/@babel/runtime-corejs2/core-js/array/from.js");
 /* harmony import */ var _core_js_array_from__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_array_from__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _core_js_is_iterable__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../core-js/is-iterable */ "./node_modules/@babel/runtime-corejs2/core-js/is-iterable.js?4741");
+/* harmony import */ var _core_js_is_iterable__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../core-js/is-iterable */ "./node_modules/@babel/runtime-corejs2/core-js/is-iterable.js");
 /* harmony import */ var _core_js_is_iterable__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_core_js_is_iterable__WEBPACK_IMPORTED_MODULE_1__);
 
 
@@ -351,7 +351,7 @@ function _iterableToArray(iter) {
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/nonIterableSpread.js?4f50":
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/nonIterableSpread.js":
 /*!***********************************************************************************************************************************!*\
   !*** C:/Users/cembr/OneDrive/Desktop/Lambda/Sandboxes/hooks/node_modules/@babel/runtime-corejs2/helpers/esm/nonIterableSpread.js ***!
   \***********************************************************************************************************************************/
@@ -415,7 +415,7 @@ function _setPrototypeOf(o, p) {
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/toConsumableArray.js?09c8":
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/toConsumableArray.js":
 /*!***********************************************************************************************************************************!*\
   !*** C:/Users/cembr/OneDrive/Desktop/Lambda/Sandboxes/hooks/node_modules/@babel/runtime-corejs2/helpers/esm/toConsumableArray.js ***!
   \***********************************************************************************************************************************/
@@ -425,9 +425,9 @@ function _setPrototypeOf(o, p) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _toConsumableArray; });
-/* harmony import */ var _arrayWithoutHoles__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./arrayWithoutHoles */ "./node_modules/@babel/runtime-corejs2/helpers/esm/arrayWithoutHoles.js?a16e");
-/* harmony import */ var _iterableToArray__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./iterableToArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/iterableToArray.js?9400");
-/* harmony import */ var _nonIterableSpread__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./nonIterableSpread */ "./node_modules/@babel/runtime-corejs2/helpers/esm/nonIterableSpread.js?4f50");
+/* harmony import */ var _arrayWithoutHoles__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./arrayWithoutHoles */ "./node_modules/@babel/runtime-corejs2/helpers/esm/arrayWithoutHoles.js");
+/* harmony import */ var _iterableToArray__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./iterableToArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/iterableToArray.js");
+/* harmony import */ var _nonIterableSpread__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./nonIterableSpread */ "./node_modules/@babel/runtime-corejs2/helpers/esm/nonIterableSpread.js");
 
 
 
@@ -617,7 +617,7 @@ module.exports = _typeof;
 
 /***/ }),
 
-/***/ "./node_modules/core-js/library/fn/array/from.js?9ce2":
+/***/ "./node_modules/core-js/library/fn/array/from.js":
 /*!************************************************************************************************************!*\
   !*** C:/Users/cembr/OneDrive/Desktop/Lambda/Sandboxes/hooks/node_modules/core-js/library/fn/array/from.js ***!
   \************************************************************************************************************/
@@ -625,7 +625,7 @@ module.exports = _typeof;
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! ../../modules/es6.string.iterator */ "./node_modules/core-js/library/modules/es6.string.iterator.js?0626");
-__webpack_require__(/*! ../../modules/es6.array.from */ "./node_modules/core-js/library/modules/es6.array.from.js?1ba6");
+__webpack_require__(/*! ../../modules/es6.array.from */ "./node_modules/core-js/library/modules/es6.array.from.js");
 module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js?9926").Array.from;
 
 
@@ -644,7 +644,7 @@ module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/
 
 /***/ }),
 
-/***/ "./node_modules/core-js/library/fn/is-iterable.js?8f18":
+/***/ "./node_modules/core-js/library/fn/is-iterable.js":
 /*!*************************************************************************************************************!*\
   !*** C:/Users/cembr/OneDrive/Desktop/Lambda/Sandboxes/hooks/node_modules/core-js/library/fn/is-iterable.js ***!
   \*************************************************************************************************************/
@@ -653,7 +653,7 @@ module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/
 
 __webpack_require__(/*! ../modules/web.dom.iterable */ "./node_modules/core-js/library/modules/web.dom.iterable.js?ebd2");
 __webpack_require__(/*! ../modules/es6.string.iterator */ "./node_modules/core-js/library/modules/es6.string.iterator.js?0626");
-module.exports = __webpack_require__(/*! ../modules/core.is-iterable */ "./node_modules/core-js/library/modules/core.is-iterable.js?0bf4");
+module.exports = __webpack_require__(/*! ../modules/core.is-iterable */ "./node_modules/core-js/library/modules/core.is-iterable.js");
 
 
 /***/ }),
@@ -1285,7 +1285,7 @@ if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 
 /***/ }),
 
-/***/ "./node_modules/core-js/library/modules/_create-property.js?a6fe":
+/***/ "./node_modules/core-js/library/modules/_create-property.js":
 /*!***********************************************************************************************************************!*\
   !*** C:/Users/cembr/OneDrive/Desktop/Lambda/Sandboxes/hooks/node_modules/core-js/library/modules/_create-property.js ***!
   \***********************************************************************************************************************/
@@ -1525,8 +1525,8 @@ module.exports = function (exec) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var ctx = __webpack_require__(/*! ./_ctx */ "./node_modules/core-js/library/modules/_ctx.js?4955");
-var call = __webpack_require__(/*! ./_iter-call */ "./node_modules/core-js/library/modules/_iter-call.js?37bb");
-var isArrayIter = __webpack_require__(/*! ./_is-array-iter */ "./node_modules/core-js/library/modules/_is-array-iter.js?48a8");
+var call = __webpack_require__(/*! ./_iter-call */ "./node_modules/core-js/library/modules/_iter-call.js");
+var isArrayIter = __webpack_require__(/*! ./_is-array-iter */ "./node_modules/core-js/library/modules/_is-array-iter.js");
 var anObject = __webpack_require__(/*! ./_an-object */ "./node_modules/core-js/library/modules/_an-object.js?d705");
 var toLength = __webpack_require__(/*! ./_to-length */ "./node_modules/core-js/library/modules/_to-length.js?66e4");
 var getIterFn = __webpack_require__(/*! ./core.get-iterator-method */ "./node_modules/core-js/library/modules/core.get-iterator-method.js?ac1b");
@@ -1648,7 +1648,7 @@ module.exports = Object('z').propertyIsEnumerable(0) ? Object : function (it) {
 
 /***/ }),
 
-/***/ "./node_modules/core-js/library/modules/_is-array-iter.js?48a8":
+/***/ "./node_modules/core-js/library/modules/_is-array-iter.js":
 /*!*********************************************************************************************************************!*\
   !*** C:/Users/cembr/OneDrive/Desktop/Lambda/Sandboxes/hooks/node_modules/core-js/library/modules/_is-array-iter.js ***!
   \*********************************************************************************************************************/
@@ -1697,7 +1697,7 @@ module.exports = function (it) {
 
 /***/ }),
 
-/***/ "./node_modules/core-js/library/modules/_iter-call.js?37bb":
+/***/ "./node_modules/core-js/library/modules/_iter-call.js":
 /*!*****************************************************************************************************************!*\
   !*** C:/Users/cembr/OneDrive/Desktop/Lambda/Sandboxes/hooks/node_modules/core-js/library/modules/_iter-call.js ***!
   \*****************************************************************************************************************/
@@ -1826,7 +1826,7 @@ module.exports = function (Base, NAME, Constructor, next, DEFAULT, IS_SET, FORCE
 
 /***/ }),
 
-/***/ "./node_modules/core-js/library/modules/_iter-detect.js?b8ca":
+/***/ "./node_modules/core-js/library/modules/_iter-detect.js":
 /*!*******************************************************************************************************************!*\
   !*** C:/Users/cembr/OneDrive/Desktop/Lambda/Sandboxes/hooks/node_modules/core-js/library/modules/_iter-detect.js ***!
   \*******************************************************************************************************************/
@@ -2727,7 +2727,7 @@ module.exports = __webpack_require__(/*! ./_core */ "./node_modules/core-js/libr
 
 /***/ }),
 
-/***/ "./node_modules/core-js/library/modules/core.is-iterable.js?0bf4":
+/***/ "./node_modules/core-js/library/modules/core.is-iterable.js":
 /*!***********************************************************************************************************************!*\
   !*** C:/Users/cembr/OneDrive/Desktop/Lambda/Sandboxes/hooks/node_modules/core-js/library/modules/core.is-iterable.js ***!
   \***********************************************************************************************************************/
@@ -2748,7 +2748,7 @@ module.exports = __webpack_require__(/*! ./_core */ "./node_modules/core-js/libr
 
 /***/ }),
 
-/***/ "./node_modules/core-js/library/modules/es6.array.from.js?1ba6":
+/***/ "./node_modules/core-js/library/modules/es6.array.from.js":
 /*!*********************************************************************************************************************!*\
   !*** C:/Users/cembr/OneDrive/Desktop/Lambda/Sandboxes/hooks/node_modules/core-js/library/modules/es6.array.from.js ***!
   \*********************************************************************************************************************/
@@ -2760,13 +2760,13 @@ module.exports = __webpack_require__(/*! ./_core */ "./node_modules/core-js/libr
 var ctx = __webpack_require__(/*! ./_ctx */ "./node_modules/core-js/library/modules/_ctx.js?4955");
 var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js?9772");
 var toObject = __webpack_require__(/*! ./_to-object */ "./node_modules/core-js/library/modules/_to-object.js?0895");
-var call = __webpack_require__(/*! ./_iter-call */ "./node_modules/core-js/library/modules/_iter-call.js?37bb");
-var isArrayIter = __webpack_require__(/*! ./_is-array-iter */ "./node_modules/core-js/library/modules/_is-array-iter.js?48a8");
+var call = __webpack_require__(/*! ./_iter-call */ "./node_modules/core-js/library/modules/_iter-call.js");
+var isArrayIter = __webpack_require__(/*! ./_is-array-iter */ "./node_modules/core-js/library/modules/_is-array-iter.js");
 var toLength = __webpack_require__(/*! ./_to-length */ "./node_modules/core-js/library/modules/_to-length.js?66e4");
-var createProperty = __webpack_require__(/*! ./_create-property */ "./node_modules/core-js/library/modules/_create-property.js?a6fe");
+var createProperty = __webpack_require__(/*! ./_create-property */ "./node_modules/core-js/library/modules/_create-property.js");
 var getIterFn = __webpack_require__(/*! ./core.get-iterator-method */ "./node_modules/core-js/library/modules/core.get-iterator-method.js?ac1b");
 
-$export($export.S + $export.F * !__webpack_require__(/*! ./_iter-detect */ "./node_modules/core-js/library/modules/_iter-detect.js?b8ca")(function (iter) { Array.from(iter); }), 'Array', {
+$export($export.S + $export.F * !__webpack_require__(/*! ./_iter-detect */ "./node_modules/core-js/library/modules/_iter-detect.js")(function (iter) { Array.from(iter); }), 'Array', {
   // 22.1.2.1 Array.from(arrayLike, mapfn = undefined, thisArg = undefined)
   from: function from(arrayLike /* , mapfn = undefined, thisArg = undefined */) {
     var O = toObject(arrayLike);
@@ -3662,7 +3662,7 @@ var _createClass2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtim
 
 var _inherits2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js"));
 
-var _toConsumableArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/toConsumableArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/toConsumableArray.js?09c8"));
+var _toConsumableArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/toConsumableArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/toConsumableArray.js"));
 
 var _set = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/set */ "./node_modules/@babel/runtime-corejs2/core-js/set.js"));
 

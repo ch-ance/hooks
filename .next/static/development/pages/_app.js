@@ -1664,8 +1664,8 @@ module.exports = function (exec) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var ctx = __webpack_require__(/*! ./_ctx */ "./node_modules/core-js/library/modules/_ctx.js?4955");
-var call = __webpack_require__(/*! ./_iter-call */ "./node_modules/core-js/library/modules/_iter-call.js?37bb");
-var isArrayIter = __webpack_require__(/*! ./_is-array-iter */ "./node_modules/core-js/library/modules/_is-array-iter.js?48a8");
+var call = __webpack_require__(/*! ./_iter-call */ "./node_modules/core-js/library/modules/_iter-call.js");
+var isArrayIter = __webpack_require__(/*! ./_is-array-iter */ "./node_modules/core-js/library/modules/_is-array-iter.js");
 var anObject = __webpack_require__(/*! ./_an-object */ "./node_modules/core-js/library/modules/_an-object.js?d705");
 var toLength = __webpack_require__(/*! ./_to-length */ "./node_modules/core-js/library/modules/_to-length.js?66e4");
 var getIterFn = __webpack_require__(/*! ./core.get-iterator-method */ "./node_modules/core-js/library/modules/core.get-iterator-method.js?ac1b");
@@ -1814,7 +1814,7 @@ module.exports = Object('z').propertyIsEnumerable(0) ? Object : function (it) {
 
 /***/ }),
 
-/***/ "./node_modules/core-js/library/modules/_is-array-iter.js?48a8":
+/***/ "./node_modules/core-js/library/modules/_is-array-iter.js":
 /*!*********************************************************************************************************************!*\
   !*** C:/Users/cembr/OneDrive/Desktop/Lambda/Sandboxes/hooks/node_modules/core-js/library/modules/_is-array-iter.js ***!
   \*********************************************************************************************************************/
@@ -1863,7 +1863,7 @@ module.exports = function (it) {
 
 /***/ }),
 
-/***/ "./node_modules/core-js/library/modules/_iter-call.js?37bb":
+/***/ "./node_modules/core-js/library/modules/_iter-call.js":
 /*!*****************************************************************************************************************!*\
   !*** C:/Users/cembr/OneDrive/Desktop/Lambda/Sandboxes/hooks/node_modules/core-js/library/modules/_iter-call.js ***!
   \*****************************************************************************************************************/
@@ -1992,7 +1992,7 @@ module.exports = function (Base, NAME, Constructor, next, DEFAULT, IS_SET, FORCE
 
 /***/ }),
 
-/***/ "./node_modules/core-js/library/modules/_iter-detect.js?b8ca":
+/***/ "./node_modules/core-js/library/modules/_iter-detect.js":
 /*!*******************************************************************************************************************!*\
   !*** C:/Users/cembr/OneDrive/Desktop/Lambda/Sandboxes/hooks/node_modules/core-js/library/modules/_iter-detect.js ***!
   \*******************************************************************************************************************/
@@ -3657,7 +3657,7 @@ $export($export.S + $export.F * (LIBRARY || !USE_NATIVE), PROMISE, {
     return promiseResolve(LIBRARY && this === Wrapper ? $Promise : this, x);
   }
 });
-$export($export.S + $export.F * !(USE_NATIVE && __webpack_require__(/*! ./_iter-detect */ "./node_modules/core-js/library/modules/_iter-detect.js?b8ca")(function (iter) {
+$export($export.S + $export.F * !(USE_NATIVE && __webpack_require__(/*! ./_iter-detect */ "./node_modules/core-js/library/modules/_iter-detect.js")(function (iter) {
   $Promise.all(iter)['catch'](empty);
 })), PROMISE, {
   // 25.4.4.1 Promise.all(iterable)

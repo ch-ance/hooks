@@ -1102,7 +1102,20 @@ var NavBar = function NavBar() {
       lineNumber: 6
     },
     __self: this
-  }, "Todo App!")));
+  }, "Todo App!")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "calculator",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, "Calculator App!")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (NavBar);
