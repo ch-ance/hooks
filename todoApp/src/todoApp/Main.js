@@ -7,14 +7,35 @@ const Main = () => {
     <>
       <ul>
         {todos.map(todo => (
-          <li
-            onClick={() =>
-              setTodos([...todos, { ...todo, completed: !todo.completed }])
-            }
-          >
-            {todo.text} {todo.completed ? "X" : "O"}
-          </li> 
-        ))} 
+          <>
+            <li
+              onClick={() =>
+                setTodos(
+                  todos.map(mapTodo =>
+                    mapTodo.id === todo.id
+                      ? { ...mapTodo, completed: !mapTodo.completed }
+                      : mapTodo
+                  )
+                )
+              }
+            >
+              {todo.text} {todo.completed ? "COMPLETE" : ""}
+            </li>
+            <button
+              onClick={() =>
+                setTodos(
+                  todos.map(TODO => {
+                    return TODO.id === todo.id
+                      ? { ...TODO, text: todoText }
+                      : TODO;
+                  })
+                )
+              }
+            >
+              Edit
+            </button>
+          </>
+        ))}
       </ul>
       <form
         onSubmit={e => {
@@ -32,6 +53,9 @@ const Main = () => {
           onChange={e => handleInput(e.target.value)}
         />
       </form>
+      <button onClick={() => setTodos(todos.filter(todo => !todo.completed))}>
+        Clear Completed
+      </button>
     </>
   );
 };
