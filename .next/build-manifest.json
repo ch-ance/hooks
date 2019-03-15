@@ -5,33 +5,23 @@
   "pages": {
     "/_app": [
       "static/runtime/webpack.js",
-      "static/runtime/main.js",
-      "static/webpack/static/runtime/main.js.008a6a8f6f30af23aa0a.hot-update.js"
+      "static/runtime/main.js"
     ],
     "/_error": [
       "static/runtime/webpack.js",
-      "static/runtime/main.js",
-      "static/webpack/static/runtime/main.js.008a6a8f6f30af23aa0a.hot-update.js"
+      "static/runtime/main.js"
     ],
     "/calculator": [
       "static/runtime/webpack.js",
-      "static/runtime/main.js",
-      "static/webpack/static/runtime/main.js.008a6a8f6f30af23aa0a.hot-update.js"
+      "static/runtime/main.js"
     ],
     "/index": [
       "static/runtime/webpack.js",
-      "static/runtime/main.js",
-      "static/webpack/static/runtime/main.js.008a6a8f6f30af23aa0a.hot-update.js"
-    ],
-    "/next/dist/pages/_error": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js",
-      "static/webpack/static/runtime/main.js.008a6a8f6f30af23aa0a.hot-update.js"
+      "static/runtime/main.js"
     ],
     "/": [
       "static/runtime/webpack.js",
-      "static/runtime/main.js",
-      "static/webpack/static/runtime/main.js.008a6a8f6f30af23aa0a.hot-update.js"
+      "static/runtime/main.js"
     ]
   }
 }

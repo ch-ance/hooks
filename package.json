@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/cembreyfarquhar/hooks#readme",
   "dependencies": {
+    "mathjs": "^5.7.0",
     "next": "^8.0.3",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
